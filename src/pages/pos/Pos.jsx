@@ -380,18 +380,9 @@ function Pos() {
               Print bill
             </button>
           }
-    
-          {/* <button onClick={updateQRCodeData} className="w-full mt-4 bg-green-400 rounded py-1 font-bold text-gray-700">Generate QR Code</button>
-           Add the QRCodeGenerator component here
-           {cart.length > 0 && (
-            <QRCodeGenerator data={qrCodeData} />
-          )}
- */}
-
         </aside>
 
       </div>
-
       <div className=" bg-white hidden print:block mt-16 print:px-6 w-full" ref={componentRef} >
         <h3 className='text-center pt-2'>JSR Hotel</h3>
         <table className="w-full mt-5 border-collapse my-5">
