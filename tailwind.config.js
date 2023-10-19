@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Rampart: ["Rampart One", "cursive"],
-       },
+        sans: ['"PT Sans"', 'sans-serif']
+      }
     },
 
   },
