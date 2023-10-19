@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 
 import React, { useState } from "react";
 import requestsServiceService from "../../services/requestsService.service";
@@ -5,13 +6,11 @@ import requestsServiceService from "../../services/requestsService.service";
 
 function Login() {
   const [userInfo, setuserInfo] = useState({
-    username: "",
+    // username: "",
     email: "",
     password: "",
   });
 
-
-  
   const [error, setError] = useState({
     message: "approved",
     color: '',

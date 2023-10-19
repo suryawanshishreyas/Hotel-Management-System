@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Invoices() {
     return (
         <div className='bg-gray-200 min-h-screen p-4'>
@@ -29,36 +28,36 @@ function Invoices() {
                     <tbody>
                         <tr className="text-sm font-medium text-gray-900 border">
                             <td className='px-2 md:p-2 border text-center'>1</td>
-                            <td className='px-2 md:p-2 border text-center'>14334333</td>
-                            <td className='px-2 md:p-2 border capitalize text-center'>Sospeter</td>
-                            <td className='px-2 md:p-2 border capitalize text-center'>Tomatoes </td>
-                            <td className='px-2 md:p-2 border capitalize text-center'>2 Gunias</td>
-                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>ksh 500</td>
-                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>ksh 1000</td>
-                            <td className='px-2 md:p-2 border capitalize text-center '>Richard Machomba</td>
-                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>12-jun-2022</td>
+                            <td className='px-2 md:p-2 border text-center'>14334332</td>
+                            <td className='px-2 md:p-2 border capitalize text-center'>JSR Hotel</td>
+                            <td className='px-2 md:p-2 border capitalize text-center'>Idli Vada </td>
+                            <td className='px-2 md:p-2 border capitalize text-center'>2 Qt</td>
+                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>Rs 500</td>
+                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>Rs 1000</td>
+                            <td className='px-2 md:p-2 border capitalize text-center '>Pratik Gundecha</td>
+                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>11-oct-2023</td>
                         </tr>
                         <tr className="text-sm font-medium text-gray-900 border">
                             <td className='px-2 md:p-2  border text-center'>2</td>
                             <td className='px-2 md:p-2  border text-center'>14334333</td>
-                            <td className='px-2 md:p-2  border capitalize text-center'>Sospeter</td>
-                            <td className='px-2 md:p-2  border capitalize text-center'>Tomatoes </td>
-                            <td className='px-2 md:p-2  border capitalize text-center'>2 Gunias</td>
-                            <td className='px-2 md:p-2  border capitalize text-center whitespace-nowrap'>ksh 500</td>
-                            <td className='px-2 md:p-2  border capitalize text-center whitespace-nowrap'>ksh 1000</td>
-                            <td className='px-2 md:p-2  border capitalize text-center '>Richard Machomba</td>
-                            <td className='px-2 md:p-2  border capitalize text-center whitespace-nowrap'>12-jun-2022</td>
+                            <td className='px-2 md:p-2  border capitalize text-center'>JSR Hotel</td>
+                            <td className='px-2 md:p-2  border capitalize text-center'>Punjabi Thali </td>
+                            <td className='px-2 md:p-2  border capitalize text-center'>3 Qt</td>
+                            <td className='px-2 md:p-2  border capitalize text-center whitespace-nowrap'>Rs. 500</td>
+                            <td className='px-2 md:p-2  border capitalize text-center whitespace-nowrap'>Rs 1000</td>
+                            <td className='px-2 md:p-2  border capitalize text-center '>Manveendar Singh</td>
+                            <td className='px-2 md:p-2  border capitalize text-center whitespace-nowrap'>12-oct-2023</td>
                         </tr>
                         <tr className="text-sm font-medium text-gray-900 border">
                             <td className='px-2 md:p-2 border text-center'>3</td>
-                            <td className='px-2 md:p-2 border text-center'>14334333</td>
-                            <td className='px-2 md:p-2 border capitalize text-center'>Sospeter</td>
-                            <td className='px-2 md:p-2 border capitalize text-center'>Tomatoes </td>
-                            <td className='px-2 md:p-2 border capitalize text-center'>2 Gunias</td>
-                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>ksh 500</td>
-                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>ksh 1000</td>
-                            <td className='px-2 md:p-2 border capitalize text-center '>Richard Machomba</td>
-                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>12-jun-2022</td>
+                            <td className='px-2 md:p-2 border text-center'>14334334</td>
+                            <td className='px-2 md:p-2 border capitalize text-center'>JSR Hotel</td>
+                            <td className='px-2 md:p-2 border capitalize text-center'>Medu Vada </td>
+                            <td className='px-2 md:p-2 border capitalize text-center'>6 Qt.</td>
+                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>Rs 500</td>
+                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>Rs 1000</td>
+                            <td className='px-2 md:p-2 border capitalize text-center '>Krishna Iyer</td>
+                            <td className='px-2 md:p-2 border capitalize text-center whitespace-nowrap'>13-oct-2023</td>
                         </tr>
                     </tbody>
                 </table>

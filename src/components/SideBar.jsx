@@ -16,9 +16,9 @@ const SideBar = () => {
     { name: "POS", link: "/pos", icon: FiShoppingCart },
     { name: "Invoices", link: "/invoices", icon: TbFileInvoice },
     { name: "File Manager", link: "/", icon: FiFolder },
-    { name: "Cart", link: "/", icon: FiShoppingCart },
-    { name: "Saved", link: "/", icon: AiOutlineHeart, margin: true },
-    { name: "Setting", link: "/", icon: RiSettings4Line },
+    // { name: "Cart", link: "/", icon: FiShoppingCart },
+    // { name: "Saved", link: "/", icon: AiOutlineHeart, margin: true },
+    // { name: "Setting", link: "/", icon: RiSettings4Line },
   ];
   const [open, setOpen] = useNav((state)=>([ state.open , state.setOpen]), shallow );
 
@@ -27,7 +27,7 @@ const SideBar = () => {
       <div
         className={`bg-[#0e0e0e] min-h-screen ${
           open ? "w-60 z-50 md:z-0" : "w-0 -translate-x-60 md:-translate-x-0 md:w-28"
-        } duration-500 text-gray-100 px-4`}
+        } duration-1 text-gray-100 px-4`}
       >
         <div className="py-3 flex justify-end">
          {open ? 

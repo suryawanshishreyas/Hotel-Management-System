@@ -14,7 +14,7 @@ function Samples() {
 
     useEffect(()=> {
         const sample = {
-            user: "Sospeter Karanja",
+            user: "Shreyas Suryawanshi",
             type: "Admin",
             token: "dsfghjhgfgdfsdasfdgfhgj",
             appKey: "adsfdgfhgjhghfgdf",

@@ -3,15 +3,15 @@ import React from 'react'
 function MostOrdered() {
     const mostOrdered = [
         {
-            name: "Chapati ndengu ",
-            count: 200,
+            name: "Idli Vada ",
+            count: 172,
         },
         {
-            name: "Rice and beans ",
+            name: "Punjabi Thali ",
             count: 120,
         },
         {
-            name: "Beef  and ugali ",
+            name: "Chai-Pakode ",
             count: 80,
         },
     ];
@@ -27,7 +27,7 @@ function MostOrdered() {
             <div className="flex flex-col gap-y-4">
                 { mostOrdered?.map((order) => (
                     <div className="flex gap-x-4 items-center" key={order.name}>
-                        <img className="w-14 h-14" src="`/img/${order.image}`" alt="" />
+                        <img className="w-14 h-14" src="https://th.bing.com/th/id/OIP.prHfoynn4MI-PBGfSLiywAHaEK?pid=ImgDet&rs=1" alt="" />
                         <div className="flex flex-col gap-y-0.5">
                             <div className="text-sm font-medium text-black">{ order.name }</div>
                             <div className="text-xs text-gray-600">{order.count } dishes ordered</div>

@@ -7,14 +7,14 @@ function StatsCard() {
         {
             title: "Total Revenue",
             percentage: "+32.40%",
-            value: "10243.00",
+            value: "3230243.00",
             status: "up",
             icon: BsCoin,
         },
         {
             title: "Total Dish Ordered",
             percentage: "-12.40%",
-            value: "23456",
+            value: "123456",
             status: "down",
             icon: BsBookmarkDash,
         },
@@ -29,7 +29,7 @@ function StatsCard() {
 
     let formatCurrency = new Intl.NumberFormat("en-US", {
         style: "currency",
-        currency: "KES",
+        currency: "INR",
       });
 
     return (

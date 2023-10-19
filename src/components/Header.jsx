@@ -7,10 +7,10 @@ import { useNav } from '../stores/user.store';
 function Header() {
     const [open, setOpen] = useNav((state) => ([state.open, state.setOpen]), shallow);
     return (
-        <div className={` ${open ? "-z-10 md:z-10" : "z-10"} transition-all ease-in duration-150 duration-400 sticky top-0 bg-white  shadow-md rounded-lg`}>
+        <div className={` ${open ? "-z-10 md:z-10" : "z-10"} transition-all ease-in duration-150 duration-400 sticky top-0 bg-red-600  shadow-md`}>
             <div className="flex transition duration-400 items-center   justify-between px-4 py-5">
                 <div className="title">
-                    <h2 className='font-bold text-lg text-gray-600'>POS System</h2>
+                    <h1 className='font-bold text-3xl text-black-600'>Hotel JSR</h1>
                 </div>
                 <ul className="flex items-center">
                     <li className='hidden md:inline-block'>
