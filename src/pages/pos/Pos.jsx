@@ -312,7 +312,7 @@ function Pos() {
                 <div className="px-5 h-20 h-full rounded-lg">
                   <img src={product.image} alt="img" className='w-full rounded h-full' />
                 </div>
-                <p className='text-center text-xs font-medium py-4 leading-tight break-all '>{product?.name}</p>
+                <p className='text-center text-md font-medium py-4 leading-tight break-all '>{product?.name}</p>
                 <p className='font-bold py-2 bg-gray-200 text-center rounded text-base'> Rs {product?.cost}</p>
               </div>
             ))}

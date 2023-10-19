@@ -10,20 +10,20 @@ function MostTypeOfOrder() {
       </button>
     </div>
     <hr className="border-gray-400" />
-    <div className="flex gap-x-7 mx-auto">
+    <div className="flex gap-x-10">
       <img width="176" src='https://g.foolcdn.com/editorial/images/458337/cash-vs-credit-card_large.jpg' alt="" />
       <div className="flex flex-col gap-y-4">
         <div className="flex gap-x-2 items-start">
-          <div className="w-4 h-4 mt-0.5 rounded-full bg-red-400" />
+          <div className="w-5 h-5 mt-1.5 rounded-full bg-red-400" />
           <div>
-            <div className="text-sm font-medium text-black">UPI/Card</div>
+            <div className="text-md font-medium text-black">UPI/Card</div>
             <div className="text-xs text-gray-500">200 customers</div>
           </div>
         </div>
         <div className="flex gap-x-2 items-start">
-          <div className="w-4 h-4 mt-0.5 rounded-full bg-blue-400" />
+          <div className="w-5 h-5 mt-1.5 rounded-full bg-blue-400" />
           <div>
-            <div className="text-sm font-medium text-black">Cash</div>
+            <div className="text-md font-medium text-black">Cash</div>
             <div className="text-xs text-gray-500">122 customers</div>
           </div>
         </div>
