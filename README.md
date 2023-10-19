@@ -4,7 +4,7 @@ A web-based hotel management system built with React.js, Tailwind CSS, and Zusta
 
 ## Summary
 
-The Hotel Management System is a comprehensive tool for managing some aspects of hotel operations. It is built using React.js, a popular JavaScript library for building user interfaces, Tailwind CSS, a utility-first CSS framework, for consistent and visually pleasing design, and Zustand for state management. 
+The Hotel Management System is a comprehensive tool for managing some aspects of hotel operations. It is built using React.js, a popular JavaScript library for building user interfaces, Tailwind CSS, a utility-first CSS framework, for consistent and visually pleasing design, and Zustand for state management and system.
 
 ## Features
 
