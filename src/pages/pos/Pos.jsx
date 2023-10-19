@@ -7,8 +7,6 @@ import { TbTrash } from 'react-icons/tb';
 import { useReactToPrint } from 'react-to-print';
 import QRCodeGenerator from './QRCodeGenerator';
 
-
-
 function Pos() {
   const componentRef = useRef();
   const [cart, setCart] = useState([])
@@ -20,6 +18,7 @@ function Pos() {
       cost: 40,
       quantity: 0,
       id: 1,
+      image:"https://th.bing.com/th/id/OIP.LrdgB037J2vt1juhWGilPAHaEd?pid=ImgDet&rs=1",
       category: "Breakfast"
     },
     {
@@ -27,6 +26,7 @@ function Pos() {
       cost: 40,
       quantity: 0,
       id: 2,
+      image:"https://www.vegrecipesofindia.com/wp-content/uploads/2021/07/medu-vada-recipe-1.jpg",
       category: "Breakfast"
     },
     {
@@ -34,6 +34,7 @@ function Pos() {
       cost: 15,
       quantity: 0,
       id: 3,
+      image:"https://th.bing.com/th/id/OIP.HgipQHaBRjMaBmkvySwuPwHaHq?pid=ImgDet&rs=1",
       category:"Evening Snacks"
     },
     {
@@ -41,6 +42,7 @@ function Pos() {
       cost: 100,
       quantity: 0,
       id: 4,
+      image:"https://kinaraindiancuisine.ca/wp-content/uploads/2020/05/Lunch-Thali_Kinaraindiancuisine-1536x1229.jpg",
       category:"Dinner" && "Lunch"
     },
     {
@@ -48,6 +50,7 @@ function Pos() {
       cost: 10,
       quantity: 0,
       id: 5,
+      image:"https://i.ytimg.com/vi/kXqeLNIgecE/maxresdefault.jpg",
       category:"Snacks Time"
     },
     {
@@ -55,6 +58,7 @@ function Pos() {
       cost: 20,
       quantity: 0,
       id: 6,
+      image:"https://s3.scoopwhoop.com/anj2/5d7b45f29d041316bdbbc067/4f31602d-251c-4381-9526-17b49931ab33.jpg",
       category:"Breakfast"
     },
     {
@@ -62,6 +66,7 @@ function Pos() {
       cost: 10,
       quantity: 0,
       id: 7,
+      image:"https://www.eatthis.com/wp-content/uploads/sites/4/2020/11/coke-glass.jpg?fit=1200%2C879&ssl=1",
       category:"Beverages"
     },
     {
@@ -69,6 +74,7 @@ function Pos() {
       cost: 35,
       quantity: 0,
       id: 8,
+      image:"https://www.marionskitchen.com/wp-content/uploads/2019/02/How-to-French-Omelette-vs-Thai-Omelette4-1024x1024.jpg",
       category:"Hunger Hour"
     },
     {
@@ -76,12 +82,15 @@ function Pos() {
       cost: 240,
       quantity: 0,
       id: 9,
+      image:"https://st1.latestly.com/wp-content/uploads/2020/05/Biryani.jpg",
       category:"Dinner"
     },
     {
       name: "Pistachio",
       cost:50,
       id:10,
+      quantity:0,
+      image:"https://images4.alphacoders.com/854/thumb-1920-854563.jpg",
       category:"Afternoon Snacks"
     }
   ])
@@ -300,8 +309,8 @@ function Pos() {
                   onClick={() => addToCart(product.id)}
                   key={product.name}
                 >
-                <div className="px-0 h-20 lg:h-25 rounded-lg">
-                  <img src="https://images.ctfassets.net/3s5io6mnxfqz/6ZImCEzx6UuvuKaAiZEDDN/50479ee4a0902deb4eb1bab720ce248a/image1.jpg" alt="img" className='w-full rounded h-full' />
+                <div className="px-5 h-20 h-full rounded-lg">
+                  <img src={product.image} alt="img" className='w-full rounded h-full' />
                 </div>
                 <p className='text-center text-xs font-medium py-4 leading-tight break-all '>{product?.name}</p>
                 <p className='font-bold py-2 bg-gray-200 text-center rounded text-base'> Rs {product?.cost}</p>
@@ -325,7 +334,7 @@ function Pos() {
               <div className="product flex flex-col md:flex-row justify-between items-center bg-slate-200 px-1 rounded-xl  gap-y-2 pb-3 my-2">
                 <div className="flex py-2 px-1 items-center">
                   <div className='h-16 w-16 hidden lg:inline-block'>
-                    <img src="https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/03-5-768x480.jpg" alt="img" className='w-full rounded h-full' />
+                    <img src={p.image} alt="img" className='w-full rounded h-full' />
                   </div>
                   <div className='ml-1 px-1'>
                     <p className='text-xs md:text-sm font-bold text-gray-500 py-2'>{p.name}</p>
