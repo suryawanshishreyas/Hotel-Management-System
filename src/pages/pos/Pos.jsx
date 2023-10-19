@@ -408,15 +408,6 @@ function Pos() {
             </tr>
           </tbody>
         </table>
-        {cart.length > 0 && (
-            <QRCodeGenerator data={cart?.map((item) => (
-              <tr className="text-xs font-medium text-black border-b border-black" key={item.name}>
-                <td className='mx-16 break-all pl-2 py-4 text-start'>{item.name}</td>
-                <td className='text-end px-2'>{item.quantity}</td>
-                <td className='capitalize text-end px-3'>{formatCurrency.format(item.cost)}</td>
-              </tr>
-            ))} />
-          )}
         <div>
           <p className="text-sm">
             Thank you for your business!
@@ -425,11 +416,16 @@ function Pos() {
             served by SRS
           </p>
           <button onClick={updateQRCodeData} className="w-full mt-4 bg-yellow-400 rounded py-1 font-bold text-gray-700">Scan QR Code Below</button>
-           {/* Add the QRCodeGenerator component here */}
-           <div className='mx-auto w-1/2 bg-white text-blue-400 text-center p- mt-10'>
-           {/* {cart.length > 0 && (
-            <QRCodeGenerator data={qrCodeData} />
-          )} */}
+          <div className='mx-auto w-1/2 bg-white text-blue-400 text-center p- mt-10'>
+          {cart.length > 0 && (
+            <QRCodeGenerator data={cart?.map((item) => (
+              <tr className="text-xs font-medium text-black border-b border-black" key={item.name}>
+                <td className='mx-16 break-all pl-2 py-4 text-start'>{item.name}</td>
+                <td className='text-end px-2'>{item.quantity}</td>
+                <td className='capitalize text-end px-3'>{formatCurrency.format(item.cost)}</td>
+              </tr>
+            ))} />
+          )}
           </div>
         </div>
       </div>
