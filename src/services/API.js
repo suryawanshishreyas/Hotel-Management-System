@@ -14,7 +14,6 @@ if ( authService.getCurrentUserAccessToken() ) {
   headers = {
     'Content-Type': 'application/json'
   };
-  
 }
 
 export const axiosInstance = axios.create({
