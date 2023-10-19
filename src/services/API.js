@@ -4,6 +4,7 @@ import authService from './auth.service';
 
 var headers;
 
+
 if ( authService.getCurrentUserAccessToken() ) {
   headers = {
     'Authorization': 'Bearer ' + authService.getCurrentUserAccessToken(),
