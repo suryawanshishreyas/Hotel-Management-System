@@ -10,9 +10,7 @@ import Pos from "./pages/pos/Pos";
 import Header from "./components/Header";
 import Invoices from "./pages/invoices/Invoices";
 
-
 function App() {
-
   const [ open , setOpen ] = useNav((state)=>([ state.open ,state.setOpen]), shallow );
   return (
 
